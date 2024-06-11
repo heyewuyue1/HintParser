@@ -1,0 +1,57 @@
+# sbt-specific files
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+.history/
+.cache/
+lib/
+
+# Eclipse-specific files
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Mac-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Optional files created by the SBT-assembly plugin
+assembly/
+
+# Log files
+logs/
+*.log
+
+# Compiled classes
+*.class
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Scala/Java binaries
+*.jar
+*.war
+*.ear
+
+# Coverage reports
+coverage/
+
+# Generated files by ScalaMeta (Metals plugin for VS Code)
+.metals/
+.bloop/
+.bsp/
+
+# VS Code settings folder
+.vscode/
